@@ -151,3 +151,25 @@ input {
     
     }
 }
+
+
+/* robot */
+
+.results-after {
+    padding: 15px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.results-calculation h3 {
+    color: var(--clr-accent-1);
+    font-size: 1.3rem;
+}
+
+.results-calculation p {
+    margin: 5px 0;
+}
