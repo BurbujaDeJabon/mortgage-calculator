@@ -18,35 +18,59 @@
 </head>
 <body>
 
+    <div class="container">
+
+    <section class="calculator">
+    
+        <div class="calculator-header">
     <h2>Mortgage Calculator</h2>
     <button id="clear-all">Clear All</button>
+        </div>
     
     <form>
 
-    
-    Mortgage Amount
-  
-    Mortgage Term
-  
-    Interest Rate
-  
-    Mortgage Type
-    Repayment
-    Interest Only
+    <fieldset>
+
+        <div class="form-input">
+        <label for="mortgage-amount" name="mortgage-amount">Mortgage Amount</label>
+        <input type="number" name="mortgage-amount" id="mortgage-amount"></input>
+        </div>
+
+        <div class="form-input">
+        <label for="mortgage-term" name="mortgage-term">Mortgage Term</label>
+        <input type="number" name="mortgage-term" id="mortgage-term" required> </input>
+        </div>
+
+        <div class="form-input">
+        <label for="interest-rate" name="interest-rate">Interest Rate</label>
+        <input type="number" name="interest-rate" id="interest-rate"> </input>
+        </div>
+    </fieldset>
+
+    <fieldset class="radio-inputs">
+        <label for="mortgage-type" name="mortgage-type">Mortgage Type</label>
+        <input type="radio" name="mortgage-type">Repayment</input>
+        <input type="radio" name="mortgage-type">Interest Only</input>
+    </fieldset>
   
     <button id="calc-repayments">Calculate Repayments</button>
     </form>
+</section><!--calculator end-->
 
-    <!-- Empty results start -->
-  
-    Results shown here
-  
+    <section class="results">
+
+        <div class="results-before">
+            <img src="./assets/images/illustration-empty.svg">
+    <h2>Results shown here</h2>
+
     Complete the form and click “calculate repayments” to see what 
     your monthly repayments would be.
+
+        </div><!--results-before end-->
   
-    <!-- Empty results end -->
-  
-    <!-- Completed results start -->
+
+    
+    <div class="results-after">
   
     Your results
   
@@ -56,9 +80,9 @@
     Your monthly repayments
   
     Total you'll repay over the term
-  
-    <!-- Completed results end -->
-
+    </div><!--RESUlts after end-->
+    </section><!-- Completed results end -->
+    </div><!--container end-->
     
 </body>
 </html>
