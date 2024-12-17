@@ -1,0 +1,22 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-accent-1: hsl(61, 70%, 52%); /* success */
+    --clr-accent-2: hsl(4, 69%, 50%); /* warning */
+
+    --clr-white: #FFFFFF;
+    --clr-shade100: hsl(202, 86%, 94%);
+    --clr-shade300: hsl(203, 41%, 72%);
+    --clr-shade500: hsl(200, 26%, 54%);
+    --clr-shade700: hsl(200, 24%, 40%);
+    --clr-shade900: hsl(202, 55%, 16%);
+}
+
+body {
+    font-family: 'Plus Jakarta Sans' , sans-serif;
+}
+
