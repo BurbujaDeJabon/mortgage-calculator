@@ -92,6 +92,13 @@ input {
     padding: 1em 1.5em;
     border-radius: 100px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc-repayments img {
+    margin-right: 1rem;
 }
 
 /* Results Section */
